@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+    background-color: rgb(238, 238, 238);
+    gap: 2em;
+    padding: 3em 6em;
+}
+
+@media (width > 500px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:
+            "header header"
+            "aside main"
+            "footer footer";
+    }
+}
+
+header,
+main,
+aside,
+footer {
+    border-radius: 3px;
+    background-color: rgb(181, 215, 255);
+    padding: 5px 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}

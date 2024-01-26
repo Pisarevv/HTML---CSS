@@ -1,0 +1,21 @@
+.site-navigation {
+    flex: 1 1 100%;
+    display: flex;
+    padding: 1.5em 4em 0 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+.site-navigation > ul {
+    display: flex;
+    gap: 1em;
+}
+
+.site-navigation > ul li {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 0 1em;
+}
+
+svg {
+    fill: rgb(255, 255, 255);
+}

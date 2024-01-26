@@ -1,0 +1,24 @@
+body {
+    font: 16px/1.5 "Raleway", sans-serif
+}
+
+h1{
+     line-height: 1.2;
+     font-weight: bold;
+     font-family: "Great Vibes", cursive;
+}
+
+.main-list > li {
+  list-style-type: square;
+}
+
+.main-list > li > ul li {
+    list-style-type: disc;
+} 
+
+.main-list > li > ul > li:last-child {
+    list-style-type: none;
+} 
+.main-list > li > ul li > ul li {
+    list-style-type: circle;
+} 

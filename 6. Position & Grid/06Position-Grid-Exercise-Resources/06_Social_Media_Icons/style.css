@@ -1,0 +1,60 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+html{
+    font: 16px/1.5 serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:1024px){
+    ul {
+        flex-direction: row;
+    }
+}
+
+li {
+    display: inline-block;
+    margin: 0.5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+a {
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.facebook-icon a:hover {
+    color: #4267B2;
+}
+
+.twitter-icon a:hover {
+    color: #1DA1F2;
+}
+
+.google-plus-icon a:hover {
+   color: #db4a39;
+}
+
+.linkedin-icon a:hover{
+    color: #0077b5;
+}
+
+.instagram-icon a:hover{
+    color: #4c68d7;
+}

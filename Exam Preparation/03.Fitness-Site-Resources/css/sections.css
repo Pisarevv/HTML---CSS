@@ -1,0 +1,94 @@
+.fitness-image{
+    background-image: url(../image/fitness-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    background-position: center -14em;
+    height: 34em;
+}
+
+.banner-section{
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.banner-section > h2 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+}
+
+.banner-section > p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    max-width: 28em;
+}
+
+.banner-section > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 0.4em 0.7em;
+    border-radius: 0.3em;
+}
+
+.welcome-section {
+    padding: 3em 0;
+}
+
+[class*="section"] header h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+[class*="section"] header h2::after {
+   display: block;
+   content: '';
+   width: 3em;
+   height: 3px;
+   border-radius: 2px;
+   background-color: rgb(255, 0, 0);
+   margin: 1em auto;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10em;
+}
+
+.title {
+    color: rgb(255, 0, 0);
+}
+
+.columns li{
+    flex: 0 0 25%;
+    gap: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-section img {
+    display: block;
+    width: 25%;
+    height: auto;
+}
+
+.coaches-section {
+    padding: 2em 0;
+    background-color: antiquewhite;
+}
+.coaches-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em;
+}
+
+.name {
+    font-weight: bold;
+}

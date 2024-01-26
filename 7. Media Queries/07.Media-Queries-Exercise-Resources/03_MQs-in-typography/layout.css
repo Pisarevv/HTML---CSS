@@ -1,0 +1,56 @@
+body{
+    padding: 5em 3em;
+    background-color: rgb(238, 238, 238);
+}
+
+@media (width > 500px) {
+    body {
+        padding: 5em 5em;
+    }
+}
+
+@media (width > 600px) {
+    body {
+        padding: 5em 7em;
+    }
+}
+
+@media (width > 800px) {
+    body {
+        padding: 5em 10em;
+    }
+}
+
+@media (width > 1300px) {
+    body {
+        padding: 5em 13em;
+    }
+}
+
+@media (width > 1800px) {
+    body {
+        padding: 5em 15em;
+    }
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+}
+
+.page > header {
+    flex-basis: 100%;
+    text-align: start;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.page > main {
+    flex: 1 1 100%;
+}
+
+/* .page > aside {
+    padding-left: 10em;
+    flex: 1 1 15rem;
+} */

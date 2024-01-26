@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background-color: aliceblue;
+}
+
+.container {
+    min-height: 10em;
+    margin-bottom: 2em;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+p {
+    padding-bottom: 2em;
+}
+.box {
+    min-height: 2em;
+    background: rgba(128, 0, 125, 0.5)
+}
+
+.p-relative .box{
+    position: relative;
+    top: 1em;
+}
+
+.p-absolute{
+    position: relative;
+}
+
+.p-absolute .box{
+    position: absolute; /*Търси първия елемент, който има position relative или absolute, иначе отива на body*/
+    left: 0;
+    top: 0;
+    /* inset: 0;  */
+}
+
+.p-fixed .box{
+    /* Оразмерява се спрямо View Port */
+    position: fixed; 
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.p-sticky .box{
+    position: sticky;
+    top: 0;
+    left: 0;
+}

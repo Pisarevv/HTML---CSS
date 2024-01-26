@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 10px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 3em 20em;
+}
+
+h3{
+    font-size: small;
+}
+
+.flex {
+    display: none;
+}
+
+.cards-layout.mansory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: mansory;
+}
+.mansory div.card{
+    max-width: 50%;
+    background-color: antiquewhite;
+    margin: 2em 0 2em 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,16 @@
+.site-header.section,
+.section-banner.section{
+    border: none;
+}
+
+.section {
+    background-color: #000;
+    color: #fff;
+    border-top: 3px solid rgba(255, 255, 255, 0.15)
+}
+
+
+.section-container {
+    max-width: 980px;
+    margin: 0 auto;
+}

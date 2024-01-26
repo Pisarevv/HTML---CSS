@@ -1,0 +1,95 @@
+:root {
+    --white-space:1.5em;
+}
+
+html {
+    font: 12px/1.5 Verdana, sans-serif;
+} 
+
+@media (width > 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (width > 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (width > 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (width > 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media (width > 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+body,
+table,
+textarea,
+input,
+option,
+button,
+label {
+    font: inherit;
+}
+
+
+h1{ font-size: 3.0em;}
+h2{ font-size: 2.2em;}
+h3{ font-size: 1.6em;}
+h4{ font-size: 1.4em;}
+h5{ font-size: 1.2em;}
+h6{ font-size: 1.0em;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin: calc(0.6 * var(--white-space, 1.5em)) 0 calc(0.3 * var(--white-space,1.5em));
+}
+
+p,
+ul,
+ol,
+dl {
+    margin-bottom: var(--white-space, 1.5em);
+}
+
+ul,ol,dl {
+    padding-left: calc(2 * var(--white-space));
+}
+
+dt{
+    margin-top: calc(0.5 * var(--white-space,1.5em));
+    font-weight: bold;
+}
+
+blockquote{
+    border-left: 0.5em solid #ddd;
+    padding-block: 0.5em;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child{
+    margin-bottom: 0;
+}

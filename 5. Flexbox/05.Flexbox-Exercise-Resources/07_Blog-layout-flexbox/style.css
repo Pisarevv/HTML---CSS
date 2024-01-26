@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Sans-serif";
+}
+
+body{
+    padding: 5em;
+    background-color: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5em;
+    font-family: Georgia, serif;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 2em;
+}
+
+.page > header {
+    flex-basis: 100%;
+    text-align: start;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.page > main {
+    flex: 1 1 45rem;
+}
+
+.page > aside {
+    padding-left: 10em;
+    flex: 1 1 15rem;
+}
+
+p {
+    padding: 0.3em 0;
+}
+
+img{
+    display: block;
+    border: 3px solid black;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3)
+}
+
+.float-left {
+   float: left;
+   margin: 0 2em 0 0;
+}
+
+.float-right {
+    float: right;
+    margin: 0 2em 0 2em;
+}
+
+section h2 {
+    padding-top: 1.5em;
+}
+
+blockquote {
+    float: right;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 20rem;
+    padding: 0 0 0 2em;
+    margin-left: 2em;
+    border-left: 3px solid rgba(0, 0, 0, 0.3);
+    font-family: Georgia, serif;
+}
+
+blockquote footer {
+    text-align: end;
+}
+
+aside ul {
+    padding: 0 0 0 2em;
+}
+
+aside div {
+    padding: 1em 0 0 0;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}

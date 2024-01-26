@@ -1,0 +1,39 @@
+body {
+    padding: 20px;
+    margin: 40px;
+    font: 16px/1.5 "Helvica", sans-serif;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+main h1 {
+    font-weight: normal;
+}
